@@ -1,0 +1,359 @@
+
+<filter>
+	<rule>
+		<id></id>
+		<tracker>1607545314</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>tcp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Any TCP]]></descr>
+		<defaultqueue>qP2P</defaultqueue>
+		<ackqueue>qACK</ackqueue>
+		<updated>
+			<time>1607545314</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1607545314</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1607545352</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>udp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[Any UDP]]></descr>
+		<defaultqueue>qP2P</defaultqueue>
+		<updated>
+			<time>1607545352</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1607545352</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1607545436</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<quick>yes</quick>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>tcp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<any></any>
+			<port>GamePortsTCP</port>
+		</destination>
+		<descr><![CDATA[Games TCP]]></descr>
+		<defaultqueue>qGames</defaultqueue>
+		<ackqueue>qACK</ackqueue>
+		<updated>
+			<time>1607545436</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1607545436</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1607545470</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<quick>yes</quick>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>udp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<any></any>
+			<port>GamePortsUDP</port>
+		</destination>
+		<descr><![CDATA[Games UDP]]></descr>
+		<defaultqueue>qGames</defaultqueue>
+		<updated>
+			<time>1607545470</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1607545470</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1607545561</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<quick>yes</quick>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>tcp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<address>Zoom</address>
+			<port>ZoomTCP</port>
+		</destination>
+		<descr><![CDATA[Zoom TCP]]></descr>
+		<defaultqueue>qGames</defaultqueue>
+		<ackqueue>qACK</ackqueue>
+		<updated>
+			<time>1607545561</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1607545561</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1607545601</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<quick>yes</quick>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>udp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<address>Zoom</address>
+			<port>ZoomUDP</port>
+		</destination>
+		<descr><![CDATA[Zoom UDP]]></descr>
+		<defaultqueue>qGames</defaultqueue>
+		<created>
+			<time>1607545601</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1607545629</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1607545710</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<quick>yes</quick>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>udp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<address>MSTeams</address>
+			<port>MSTeamsUDP</port>
+		</destination>
+		<descr><![CDATA[MS Teams UDP]]></descr>
+		<defaultqueue>qGames</defaultqueue>
+		<updated>
+			<time>1607545710</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</updated>
+		<created>
+			<time>1607545710</time>
+			<username>admin@192.168.11.99 (Local Database)</username>
+		</created>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1573149727</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<quick>yes</quick>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>icmp</protocol>
+		<icmptype>any</icmptype>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+		<descr><![CDATA[ping]]></descr>
+		<defaultqueue>qGames</defaultqueue>
+		<created>
+			<time>1573149727</time>
+			<username>admin@192.168.10.252 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1607546212</time>
+			<username>admin@192.168.11.100 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<id></id>
+		<tracker>1607670199</tracker>
+		<type>match</type>
+		<ipprotocol>inet</ipprotocol>
+		<tag></tag>
+		<tagged></tagged>
+		<direction>any</direction>
+		<quick>yes</quick>
+		<floating>yes</floating>
+		<max></max>
+		<max-src-nodes></max-src-nodes>
+		<max-src-conn></max-src-conn>
+		<max-src-states></max-src-states>
+		<statetimeout></statetimeout>
+		<statetype><![CDATA[keep state]]></statetype>
+		<os></os>
+		<protocol>tcp</protocol>
+		<source>
+			<any></any>
+		</source>
+		<destination>
+			<address>112.199.113.131</address>
+			<port>443</port>
+		</destination>
+		<descr><![CDATA[Trading PC]]></descr>
+		<defaultqueue>qGames</defaultqueue>
+		<ackqueue>qACK</ackqueue>
+		<created>
+			<time>1607670199</time>
+			<username>admin@192.168.11.52 (Local Database)</username>
+		</created>
+		<updated>
+			<time>1607966050</time>
+			<username>admin@192.168.11.52 (Local Database)</username>
+		</updated>
+	</rule>
+	<rule>
+		<type>pass</type>
+		<ipprotocol>inet</ipprotocol>
+		<descr><![CDATA[Default allow LAN to any rule]]></descr>
+		<interface>lan</interface>
+		<tracker>0100000101</tracker>
+		<source>
+			<network>lan</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+	</rule>
+	<rule>
+		<type>pass</type>
+		<ipprotocol>inet6</ipprotocol>
+		<descr><![CDATA[Default allow LAN IPv6 to any rule]]></descr>
+		<interface>lan</interface>
+		<tracker>0100000102</tracker>
+		<source>
+			<network>lan</network>
+		</source>
+		<destination>
+			<any></any>
+		</destination>
+	</rule>
+	<separator>
+		<lan></lan>
+		<floatingrules></floatingrules>
+		<wan></wan>
+	</separator>
+	<bypassstaticroutes>yes</bypassstaticroutes>
+</filter>
