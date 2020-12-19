@@ -1,0 +1,66 @@
+
+<aliases>
+	<alias>
+		<name>BrowsePorts</name>
+		<type>port</type>
+		<address>20 21 22 23 25 80 81 82 109 110 113 115 143 177 194 201 209 220 443 445 554 587 654 989 990 993 995 1080 1194 1214 1220 1234 1503 1513 1723 1755 1935 2049 3785 5004 5005 5060 5061 7070 8008 8080 8530 8531 9050 9051 23399 25565 25575 27014:27050 33001</address>
+		<descr><![CDATA[Browsing Ports]]></descr>
+		<detail><![CDATA[FTP Transfer||FTP Command||SSH||Telnet||SMTP||HTTP||Tor||Tor||POP2||POP3||IIRC||Simple FTP||IMAP||XDMCP||IRC||AppleTalk Routing Maintenance||Quick Mail Transfer Protocol||IMAP3||HTTPS||SMB Windows File-Sharing||RTSP||SMTP||MMS||FTPS||FTPS||IMAPS||POP3S||SOCKS||OpenVPN||Kazaa||QuickTime Streaming||VLC Stream||Windows Live Messenger||Garena Client||PPTP||ms-streaming||Flash||NFS||Ventrilo||RTP||RTP||SIP||SIP||RTSP||HTTP alt||HTTP alt||WSUS HTTP||WSUS HTTPS||Tor||Tor||Skype||minecraft||minecraft||Steam downloads||Netflix]]></detail>
+	</alias>
+	<alias>
+		<name>GamePortsTCP</name>
+		<type>port</type>
+		<address>27000:27100 2099 5222:5223 6112:6119 30097:30147</address>
+		<descr><![CDATA[Games, MS Teams and Zoom Ports]]></descr>
+		<detail><![CDATA[Steam||League of Legends||League of Legends||Battle.NET||Mobile Legends]]></detail>
+	</alias>
+	<alias>
+		<name>GamePortsUDP</name>
+		<type>port</type>
+		<address>27000:27100 5000:5500 6112:6119 6672 61455:61458</address>
+		<descr><![CDATA[Games, Zoom and MS Teams UDP]]></descr>
+		<detail><![CDATA[Steam||League of Legends||Battle.NET||GTA 5||GTA 5]]></detail>
+	</alias>
+	<alias>
+		<address>13.107.64.0/18 52.112.0.0/14</address>
+		<detail><![CDATA[||]]></detail>
+		<name>MSTeams</name>
+		<type>network</type>
+		<descr><![CDATA[MS Teams]]></descr>
+	</alias>
+	<alias>
+		<address>3478:3481</address>
+		<detail></detail>
+		<name>MSTeamsUDP</name>
+		<type>port</type>
+		<descr><![CDATA[MS Teams UDP]]></descr>
+	</alias>
+	<alias>
+		<name>OpenDNS</name>
+		<type>host</type>
+		<address>208.67.222.222 208.67.220.220 1.0.0.1 1.1.1.1</address>
+		<descr><![CDATA[OpenDNS Servers]]></descr>
+		<detail><![CDATA[Entry added Sat, 04 Jan 2020 15:18:19 +0800||Entry added Sat, 04 Jan 2020 15:18:19 +0800||Entry added Sat, 04 Jan 2020 16:22:00 +0800||Entry added Sat, 04 Jan 2020 16:22:00 +0800]]></detail>
+	</alias>
+	<alias>
+		<address>3.7.35.0/25 3.21.137.128/25 3.22.11.0/24 3.23.93.0/24 3.25.41.128/25 3.25.42.0/25 3.80.20.128/25 3.101.32.128/25 3.101.52.0/25 3.104.34.128/25 3.120.121.0/25 3.127.194.128/25 3.208.72.0/25 3.211.241.0/25 3.235.69.0/25 3.235.71.128/25 3.235.72.128/25 3.235.73.0/25 3.235.82.0/23 3.235.96.0/23 4.34.125.128/25 4.35.64.128/25 8.5.128.0/23 13.52.6.128/25 13.52.146.0/25 13.114.106.166/32 18.205.93.128/25 50.239.202.0/23 50.239.204.0/24 52.61.100.128/25 52.81.151.128/25 52.197.97.21/32 52.202.62.192/26 52.215.168.0/25 64.69.74.0/24 64.125.62.0/24 64.211.144.0/24 65.39.152.0/24 69.174.57.0/24 69.174.108.0/22 99.79.20.0/25 103.122.166.0/23 109.94.160.0/22 109.244.18.0/25 109.244.19.0/24 111.33.181.0/25 115.110.154.192/26 115.114.56.192/26 115.114.115.0/26 115.114.131.0/26 120.29.148.0/24 140.238.128.0/24 147.124.96.0/19 152.67.20.0/24 152.67.118.0/24 152.67.180.0/24 158.101.64.0/24 160.1.56.128/25 161.189.199.0/25 161.199.136.0/22 162.12.232.0/22 162.255.36.0/22 165.254.88.0/23 168.138.16.0/24 168.138.48.0/24 168.138.72.0/24 168.138.244.0/24 173.231.80.0/20 192.204.12.0/22 193.122.32.0/22 193.123.0.0/19 193.123.40.0/22 193.123.128.0/19 202.177.207.128/27 202.177.213.96/27 204.80.104.0/21 204.141.28.0/22 207.226.132.0/24 209.9.211.0/24 209.9.215.0/24 210.57.55.0/24 213.19.144.0/24 213.19.153.0/24 213.244.140.0/24 221.122.88.64/27 221.122.88.128/25 221.122.89.128/25 221.123.139.192/27</address>
+		<detail><![CDATA[||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||]]></detail>
+		<name>Zoom</name>
+		<type>network</type>
+		<descr><![CDATA[Zoom IP Addresses]]></descr>
+	</alias>
+	<alias>
+		<address>8801:8802 5090:5091</address>
+		<detail><![CDATA[Zoom||Zoom]]></detail>
+		<name>ZoomTCP</name>
+		<type>port</type>
+		<descr><![CDATA[Zoom TCP]]></descr>
+	</alias>
+	<alias>
+		<address>3478:3479 8801:8810 5090 20000:64000</address>
+		<detail><![CDATA[Zoom||Zoom||Zoom||Zoom]]></detail>
+		<name>ZoomUDP</name>
+		<type>port</type>
+		<descr><![CDATA[Zoom UDP]]></descr>
+	</alias>
+</aliases>
